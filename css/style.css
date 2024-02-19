@@ -1,1 +1,9 @@
-/* Denna fil skall innehålla din CSS kod */
+body {
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 5rem;
+}
+p {
+    color: black;
+}

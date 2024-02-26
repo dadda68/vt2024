@@ -8,7 +8,7 @@
 .content {
     display: grid;
     grid-template-columns: 5fr 5fr;
-    grid-template-rows: 8vw 10vw 8vw;
+    grid-template-rows: 5vw auto 5vw;
     grid-template-areas: 
     'head head'
     'left right'

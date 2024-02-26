@@ -1,9 +1,45 @@
-body {
-    color: red;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    padding-top: 5rem;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
 }
-p {
-    color: black;
+.content {
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+    grid-template-rows: 8vw 10vw 8vw;
+    grid-template-areas: 
+    'head head'
+    'left right'
+    'foot foot';
+}
+header {
+    grid-area: head;
+    width: 85%;
+    margin-left: auto;
+    margin: 0 auto;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header ul {
+    list-style: none;
+    display: flex;
+}
+header li {
+    margin-left: 2vw;
+}
+#left-side {
+    grid-area: left;
+    background-color: green;
+}
+#right-side {
+    grid-area: right;
+    background-color: blue;
+}
+footer {
+    grid-area: foot;
+    background-color: orange;
 }

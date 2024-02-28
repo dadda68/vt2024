@@ -5,10 +5,13 @@
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
 }
+body {
+    margin: auto 8vw;
+}
 .content {
     display: grid;
     grid-template-columns: 5fr 5fr;
-    grid-template-rows: 5vw auto 5vw;
+    grid-template-rows: 6vw auto 5vw;
     grid-template-areas: 
     'head head'
     'left right'
@@ -16,13 +19,14 @@
 }
 header {
     grid-area: head;
-    width: 85%;
-    margin-left: auto;
-    margin: 0 auto;
     /* background-color: red; */
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+header a {
+    color: black;
+    text-decoration: none;
 }
 header ul {
     list-style: none;

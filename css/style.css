@@ -11,7 +11,7 @@ body {
 .content {
     display: grid;
     grid-template-columns: 5fr 5fr;
-    grid-template-rows: 6vw auto 5vw;
+    grid-template-rows: 6vw 30vw 5vw;
     grid-template-areas: 
     'head head'
     'left right'
@@ -46,4 +46,7 @@ header li {
 footer {
     grid-area: foot;
     background-color: orange;
+}
+.title {
+    font-size: 4rem;
 }

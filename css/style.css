@@ -59,6 +59,7 @@ footer {
 .title {
     font-size: 4rem;
     margin: 5vw 0 3vw 0;
+    font-weight: 500;
 }
 #discover {
     background: transparent;

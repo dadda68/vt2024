@@ -17,7 +17,7 @@ body {
 .content {
     display: grid;
     grid-template-columns: 5fr 5fr;
-    grid-template-rows: 6vw 40vw 5vw;
+    grid-template-rows: 6vw auto 5vw;
     grid-template-areas: 
     'head head'
     'left right'
@@ -50,11 +50,18 @@ header li {
 }
 #right-side {
     grid-area: right;
-    background-color: blue;
+    /* background-color: red; */
+}
+#right-side img {
+    width: 40vw;
+    margin-top: 4vw;
 }
 footer {
     grid-area: foot;
     text-align: center;
+}
+#home-footer {
+    padding-top: 4.5vw;
 }
 .title {
     font-size: 4rem;
@@ -76,4 +83,46 @@ footer {
     background-color: #fff;
     color: #0a001d;
     font-weight: 600;
+}
+#timeline-area {
+    margin: 5vw auto;
+    width: 30vw;
+    border-left: 0.1rem solid white;
+    padding: 0 3vw 0 2vw;
+}
+.card {
+    padding: 2vw 2vw 1vw 2vw;
+    border: 1px solid white;
+    position: relative;
+    margin: 0 0 2vw 2vw;
+    line-height: 1.8vw;
+}
+.card * {
+    margin-bottom: 1vw;
+}
+.card p {
+    font-weight: 200;
+}
+.card::before {
+    content: '';
+    display: block;
+    width: 1vw;
+    height: 1vw;
+    border-radius: 50%;
+    border: 3px solid white;
+    position: absolute;
+    background-color: #200238;
+    top: 1vw;
+    left: -4.8vw;
+}
+.card::after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: transparent white transparent transparent;
+    border-width: 8px;
+    position: absolute;
+    left: -1.1vw;
+    top: 1vw;
 }

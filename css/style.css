@@ -85,17 +85,21 @@ footer {
     font-weight: 600;
 }
 #timeline-area {
-    margin: 5vw auto;
-    width: 30vw;
+    margin: 5vw -3vw;
+    width: 26vw;
     border-left: 0.1rem solid white;
     padding: 0 3vw 0 2vw;
+    float: right;
 }
 .card {
     padding: 1.5vw 1.5vw 0.5vw 1.5vw;
     border: 1px solid white;
     position: relative;
-    margin: 0 0 2vw 2vw;
+    margin: 0 0 5vw 2vw;
     line-height: 1.8vw;
+}
+.card h4 {
+    color: #d1fff9;
 }
 .card * {
     margin-bottom: 1vw;
@@ -109,7 +113,7 @@ footer {
     width: 1vw;
     height: 1vw;
     border-radius: 50%;
-    border: 3px solid white;
+    border: 3px solid #00ffdd;
     position: absolute;
     background-color: #200238;
     top: 1vw;
@@ -124,5 +128,33 @@ footer {
     border-width: 8px;
     position: absolute;
     left: -1.1vw;
+    top: 1vw;
+}
+#middle {
+    position: relative;
+    margin: 0 0 2vw -26vw;
+    width: 20vw;
+}
+#middle::before {
+    content: '';
+    display: block;
+    width: 1vw;
+    height: 1vw;
+    border-radius: 50%;
+    border: 3px solid #00ffdd;
+    position: absolute;
+    background-color: #200238;
+    top: 1vw;
+    left: 23.2vw;
+}
+#middle::after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: transparent transparent transparent white;
+    border-width: 8px;
+    position: absolute;
+    left: 19.9vw;
     top: 1vw;
 }

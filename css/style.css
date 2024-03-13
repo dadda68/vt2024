@@ -160,5 +160,41 @@ footer {
 }
 #left-side img {
     width: 530px;
-    margin-top: 21vw;
+    margin-top: 23vw;
+}
+#portfolio-grid {
+    grid-area: pg;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5vw auto;
+    justify-content: center;
+}
+#portfolio-grid .portfolio-card-content{
+    width: 300px;
+    height: 230px;
+    box-shadow: 0px 0px 25px #47067d;
+    background-color: #575757;
+    transition: 0.2s;
+    margin: 1vw;
+}
+#portfolio-grid .portfolio-card-content:hover {
+    cursor: pointer;
+    width: 320px;
+    height: 245px;
+    margin: 0vw;
+}
+#portfolio-grid div img {
+    width: 100%;
+}
+#portfolio-grid .portfolio-card-content p {
+    margin: 1.5vh;
+}
+.grid-content {
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+    grid-template-rows: 6vw auto 5vw 5vw;
+    grid-template-areas: 
+    'head head'
+    'pg pg'
+    'foot foot';
 }

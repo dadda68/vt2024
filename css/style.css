@@ -171,7 +171,7 @@ footer {
 }
 #portfolio-grid .portfolio-card-content{
     width: 300px;
-    height: 230px;
+    height: 90%;
     box-shadow: 0px 0px 25px #47067d;
     background-color: #575757;
     transition: 0.2s;
@@ -180,14 +180,10 @@ footer {
 #portfolio-grid .portfolio-card-content:hover {
     cursor: pointer;
     width: 320px;
-    height: 245px;
     margin: 0vw;
 }
 #portfolio-grid div img {
     width: 100%;
-}
-#portfolio-grid .portfolio-card-content p {
-    margin: 1.5vh;
 }
 .grid-content {
     display: grid;

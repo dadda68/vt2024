@@ -16,19 +16,18 @@ function togglePopupFive() {
 function togglePopupSix() {
     document.getElementById("popup-6").classList.toggle("active");
 }
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     const menuToggle = document.querySelector('.menu-toggle');
     const navList = document.querySelector('header ul');
-  
-    menuToggle.addEventListener('click', function() {
-      navList.classList.toggle('active'); // Toggle the active class on click
+
+    menuToggle.addEventListener('click', function () {
+        navList.classList.toggle('active');
     });
-    
-    // Close the menu when a nav item is clicked (optional)
+
     const navItems = document.querySelectorAll('header ul li a');
     navItems.forEach(item => {
-      item.addEventListener('click', function() {
-        navList.classList.remove('active'); // Remove the active class when a nav item is clicked
-      });
+        item.addEventListener('click', function () {
+            navList.classList.remove('active');
+        });
     });
-  });
+});

@@ -322,6 +322,16 @@ footer {
         display: none;
     }
 
+    #socials img {
+        gap: 1vw;
+    }
+
+    #left-side #socials img {
+        margin-top: 5vw;
+        display: block;
+        width: 40px;
+    }
+
     .title {
         font-size: 2rem;
     }
@@ -494,7 +504,7 @@ footer {
         transform: translate(-50%, -50%) scale(1);
     }
 
-    .contact-item img {
+    #socials img {
         display: relative;
     }
 

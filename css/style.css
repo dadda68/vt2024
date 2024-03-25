@@ -269,6 +269,10 @@ footer {
     box-sizing: border-box;
 }
 
+#overlay-6 {
+    margin-top: 4vw;
+}
+
 .popup .overlay-content * {
     margin-bottom: 1vw;
 }

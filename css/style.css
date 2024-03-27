@@ -214,7 +214,7 @@ footer {
 #portfolio-grid .portfolio-card-content {
     width: 21vw;
     height: 15vw;
-    box-shadow: 0px 0px 25px #47067d;
+    box-shadow: 0 0 25px #47067d;
     border: 1px solid #fff;
     transition: 0.2s;
     margin: 1vw;
@@ -224,7 +224,7 @@ footer {
     cursor: pointer;
     width: 22vw;
     height: 16vw;
-    margin: 0vw 0.9vw;
+    margin: 0 0.9vw;
 }
 
 #portfolio-grid .portfolio-card-content p {
@@ -358,7 +358,7 @@ footer {
         position: absolute;
         background-color: #200238;
         top: 1vw;
-        left: 0px;
+        left: 0;
     }
 
     .card::after {
@@ -370,7 +370,7 @@ footer {
         border-color: transparent white transparent transparent;
         border-width: 8px;
         position: absolute;
-        left: 0px;
+        left: 0;
         top: 1vw;
     }
 
@@ -454,7 +454,7 @@ footer {
     #portfolio-grid .portfolio-card-content {
         width: 100%;
         height: 100%;
-        box-shadow: 0px 0px 25px #47067d;
+        box-shadow: 0 0 25px #47067d;
         border: 1px solid #fff;
         transition: 0.2s;
         margin: 1vw;
@@ -464,7 +464,7 @@ footer {
         cursor: pointer;
         width: 100%;
         height: 100%;
-        margin: 0vw 0.9vw;
+        margin: 0 0.9vw;
     }
 
     #portfolio-grid .portfolio-card-content p {
@@ -550,7 +550,7 @@ footer {
         left: 32%;
         background-color: #200238;
         border: 1px solid white;
-        box-shadow: 0px 0px 25px #47067d;
+        box-shadow: 0 0 25px #47067d;
         padding: 10px;
         z-index: 999;
         width: 60vw;
